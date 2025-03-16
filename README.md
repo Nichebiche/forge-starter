@@ -42,6 +42,18 @@ npm run release
 yarn release
 ```
 
+## Deployment Steps
+
+To deploy the contract in this repository, follow these steps:
+
+1. Ensure you have Node.js and npm installed on your machine.
+2. Open a terminal and navigate to the root directory of the repository.
+3. Run `npm install` to install the necessary dependencies.
+4. Run `npm run build` to compile the contracts.
+5. Run `npm run deploy` to deploy the contracts.
+
+The deployment process uses the `thirdweb` tool, as specified in the `package.json` file. The deployment command is defined as `npx thirdweb@latest deploy`. Make sure you have the necessary permissions and configurations set up for deploying the contracts. For more details, refer to the `README.md` file.
+
 ## Join our Discord!
 
 For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
